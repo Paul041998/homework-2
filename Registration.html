@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <style>
+      .button {
+        width: 300px;
+        background: #46a358;
+        color: #fff;
+        border: 1px solid #46a358;
+        padding: 10px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .button:hover {
+        background: #fff;
+        color: #46a358;
+      }
+
+      .social-login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        height: 40px;
+        border: 1px solid #eaeaea;
+        text-decoration: none;
+        gap: 10px;
+        transition: 0.2s;
+      }
+
+      .social-login:hover {
+        box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.42);
+      }
+
+      input {
+        border: 1px solid #eaeaea;
+        border-radius: 5px;
+        height: 40px;
+        margin-bottom: 20px;
+        display: inline-block;
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper" align="center">
+      <h1 class="form-title">Login Register</h1>
+      <form action="">
+        <input type="text" placeholder="Username" /><br />
+        <input type="email" placeholder="Enter your email adress" /><br />
+        <input type="password" placeholder="Password" /><br />
+        <input type="password" placeholder="Confirm your password" /><br />
+        <input type="submit" value="Register" class="button" />
+        <p>or register with</p>
+        <br />
+        <button type="button" class="social-login">
+          <img
+            src="https://i.pinimg.com/736x/68/3d/9a/683d9a1a8150ee8b29bfd25d46804605.jpg"
+            alt="logo"
+            width="20px"
+          />
+          <span>Google</span></button
+        ><br />
+        <button type="button" class="social-login">
+          <img
+            src="https://img2.freepng.ru/20180712/jrc/aaw6si4mt.webp"
+            alt="logo"
+            width="20px"
+          />
+          <span>Facebook</span>
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
